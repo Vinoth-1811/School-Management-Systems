@@ -1,7 +1,7 @@
 
 @extends('layouts.master')
 @section('content')
-{{-- message --}}
+{{-- message popup--}}
 {!! Toastr::message() !!}
 <div class="page-wrapper">
     <div class="content container-fluid">
@@ -47,7 +47,7 @@
     </div>
 </div>
 
-{{-- model elete --}}
+{{-- model delete --}}
 <div class="modal custom-modal fade" id="delete" role="dialog">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
